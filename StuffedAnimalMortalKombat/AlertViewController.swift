@@ -1,5 +1,5 @@
 //
-//  ControllerViewController.swift
+//  AlertViewController.swift
 //  StuffedAnimalMortalKombat
 //
 //  Created by Whitney Lauren on 6/9/15.
@@ -8,43 +8,19 @@
 
 import UIKit
 
-class ControllerViewController: UIViewController {
+class AlertViewController: UIViewController {
     
     
-    @IBAction func moveUp(sender: UIButton) {
-    }
-    
-    @IBAction func moveRight(sender: UIButton) {
-    }
-    
-    @IBAction func moveDown(sender: UIButton) {
-    }
-    
-    @IBAction func moveLeft(sender: UIButton) {
+    @IBAction func acceptGame(sender: UIButton) {
     }
     
     
-    @IBAction func hitButton(sender: UIButton) {
+    @IBAction func declineGame(sender: UIButton) {
     }
-    
-    @IBAction func fuzzButton(sender: UIButton) {
-    }
-    
-    @IBAction func kickButton(sender: UIButton) {
-    }
-    
-    @IBAction func crushButton(sender: UIButton) {
-    }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
-        
-        Connector.sharedConnector().startAdvertising()
 
-        
         // Do any additional setup after loading the view.
     }
 

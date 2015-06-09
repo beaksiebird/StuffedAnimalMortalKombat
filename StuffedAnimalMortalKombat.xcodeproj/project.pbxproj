@@ -18,6 +18,7 @@
 		CD7B64841B272C3E003FBABB /* iPhoneMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B64821B272C3E003FBABB /* iPhoneMain.storyboard */; };
 		CD7B64871B273B7F003FBABB /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B64861B273B7F003FBABB /* ControllerViewController.swift */; };
 		CD7B64891B273C69003FBABB /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B64881B273C69003FBABB /* Connector.swift */; };
+		CD7B648C1B278B23003FBABB /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B648B1B278B23003FBABB /* AlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		CD7B64831B272C3E003FBABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhoneMain.storyboard; sourceTree = "<group>"; };
 		CD7B64861B273B7F003FBABB /* ControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControllerViewController.swift; path = ../ControllerViewController.swift; sourceTree = "<group>"; };
 		CD7B64881B273C69003FBABB /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		CD7B648B1B278B23003FBABB /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				CD7B64861B273B7F003FBABB /* ControllerViewController.swift */,
+				CD7B648B1B278B23003FBABB /* AlertViewController.swift */,
 				CD7B64621B2729C0003FBABB /* GameScene.swift */,
 				CD7B64601B2729C0003FBABB /* GameScene.sks */,
 				CD7B645C1B2729C0003FBABB /* Supporting Files */,
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7B64871B273B7F003FBABB /* ControllerViewController.swift in Sources */,
+				CD7B648C1B278B23003FBABB /* AlertViewController.swift in Sources */,
 				CD7B64631B2729C0003FBABB /* GameScene.swift in Sources */,
 				CD7B64651B2729C0003FBABB /* GameViewController.swift in Sources */,
 				CD7B64891B273C69003FBABB /* Connector.swift in Sources */,
