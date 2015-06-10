@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD7B353C1B2873AB00AB0EA6 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B353B1B2873AB00AB0EA6 /* Avatar.swift */; };
 		CD7B645F1B2729C0003FBABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B645E1B2729C0003FBABB /* AppDelegate.swift */; };
 		CD7B64611B2729C0003FBABB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CD7B64601B2729C0003FBABB /* GameScene.sks */; };
 		CD7B64631B2729C0003FBABB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B64621B2729C0003FBABB /* GameScene.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD7B353B1B2873AB00AB0EA6 /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 		CD7B64591B2729C0003FBABB /* StuffedAnimalMortalKombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuffedAnimalMortalKombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7B645D1B2729C0003FBABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD7B645E1B2729C0003FBABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD7B353A1B28737000AB0EA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD7B353B1B2873AB00AB0EA6 /* Avatar.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		CD7B64501B2729C0003FBABB = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		CD7B645B1B2729C0003FBABB /* StuffedAnimalMortalKombat */ = {
 			isa = PBXGroup;
 			children = (
+				CD7B353A1B28737000AB0EA6 /* Controller */,
 				CD7B648A1B273C78003FBABB /* Random */,
 				CD7B64641B2729C0003FBABB /* GameViewController.swift */,
 				CD7B64661B2729C0003FBABB /* iPadMain.storyboard */,
@@ -247,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD7B353C1B2873AB00AB0EA6 /* Avatar.swift in Sources */,
 				CD7B64871B273B7F003FBABB /* ControllerViewController.swift in Sources */,
 				CD7B64631B2729C0003FBABB /* GameScene.swift in Sources */,
 				CD7B64651B2729C0003FBABB /* GameViewController.swift in Sources */,
