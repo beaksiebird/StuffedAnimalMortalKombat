@@ -115,9 +115,7 @@ import UIKit
         addDotAtDegrees(oppoDegrees, withColor: energyColor, andContext: context)
         addDotAtDegrees(45, withColor: energyColor, andContext: context)
         
-        
-        CGContextSetBlendMode(context, kCGBlendModeNormal)
-        
+       
         CGContextSetBlendMode(context, kCGBlendModeNormal)
         
         //avatar circle

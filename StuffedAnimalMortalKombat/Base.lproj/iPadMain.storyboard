@@ -21,49 +21,80 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--Player View Controller-->
+        <!--View Controller-->
         <scene sceneID="W5g-N4-gF2">
             <objects>
-                <viewController storyboardIdentifier="playerStats" id="5tX-ff-QYx" customClass="PlayerViewController" customModule="StuffedAnimalMortalKombat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="playerStats" id="5tX-ff-QYx" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hck-6N-2VL"/>
                         <viewControllerLayoutGuide type="bottom" id="Gdi-p2-Hhg"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Aqd-Ta-PvE">
+                    <view key="view" contentMode="scaleToFill" id="Aqd-Ta-PvE" userLabel="View" customClass="pldsaf">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nkl-Jq-Sd7">
-                                <rect key="frame" x="-3" y="-3" width="206" height="10"/>
-                                <color key="backgroundColor" red="0.29210254549999998" green="0.92349123950000001" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XQE-eo-YQJ">
-                                <rect key="frame" x="0.0" y="58" width="200" height="242"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nkl-Jq-Sd7" customClass="playerInfo" customModule="StuffedAnimalMortalKombat" customModuleProvider="target">
+                                <rect key="frame" x="-3" y="0.0" width="206" height="10"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.42577740749571519" green="0.99897700548171997" blue="0.18077160517708582" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lightColor">
+                                        <color key="value" red="0.99897700550000001" green="0.1925164436" blue="0.20561762319999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="points">
+                                        <real key="value" value="50"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a9T-Zs-28j">
                                 <rect key="frame" x="113" y="25" width="82" height="25"/>
                                 <color key="backgroundColor" red="0.61362408577127658" green="0.61362408577127658" blue="0.61362408577127658" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o4W-vG-XCW">
-                                <rect key="frame" x="-3" y="8" width="206" height="10"/>
-                                <color key="backgroundColor" red="0.29210254549999998" green="0.92349123950000001" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Beaksie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZ6-HE-vYA">
-                                <rect key="frame" x="9" y="20" width="84" height="36"/>
+                                <rect key="frame" x="8" y="20" width="84" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XQE-eo-YQJ" customClass="Kills" customModule="StuffedAnimalMortalKombat" customModuleProvider="target">
+                                <rect key="frame" x="3" y="50" width="200" height="242"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o4W-vG-XCW" customClass="playerInfo" customModule="StuffedAnimalMortalKombat" customModuleProvider="target">
+                                <rect key="frame" x="-3" y="8" width="206" height="10"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="healthColor">
+                                        <color key="value" red="1" green="0.11839366179999999" blue="0.87112307779999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="energyColor">
+                                        <color key="value" red="0.2078602443" green="0.97637194400000005" blue="0.17817304179999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lightHealth">
+                                        <color key="value" red="0.99215686270000003" green="0.056383634869999998" blue="0.59585731909999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lightEnergy">
+                                        <color key="value" red="0.059192609180000001" green="0.1231246351" blue="0.804983428" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.34144323701756907" green="0.37306487065665289" blue="0.99897700550000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="lightColor">
+                                        <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="points">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="200" height="300"/>
-                    <connections>
-                        <outlet property="playerName" destination="HZ6-HE-vYA" id="PMF-aP-ddh"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rtW-dC-qjc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
