@@ -208,9 +208,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XJl-rX-QWG">
                                 <rect key="frame" x="10" y="-1014" width="240" height="128"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon (2)" translatesAutoresizingMaskIntoConstraints="NO" id="hkj-vT-Po2">
-                                <rect key="frame" x="325" y="0.0" width="70" height="70"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BeaksieBird" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ky8-5M-5fp">
                                 <rect key="frame" x="235" y="350" width="250" height="30"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
@@ -228,7 +225,4 @@
             <point key="canvasLocation" x="357" y="338"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="icon (2)" width="1024" height="1024"/>
-    </resources>
 </document>

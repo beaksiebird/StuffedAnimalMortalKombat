@@ -27,6 +27,10 @@ class Connector: NSObject, MCSessionDelegate, MCNearbyServiceAdvertiserDelegate,
     
     var myInfo : [String:AnyObject] = [:]
     
+    var gameBoard: GameViewController?
+    
+    var controller: ControllerViewController?
+    
     func startBrowsing() { //iPad
         
         myPeerID = MCPeerID(displayName: "World")

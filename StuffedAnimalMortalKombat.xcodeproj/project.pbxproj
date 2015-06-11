@@ -10,6 +10,7 @@
 		CD213D281B29C3380020E427 /* MoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD213D271B29C3380020E427 /* MoveButton.swift */; };
 		CD213D2A1B29D13A0020E427 /* PawButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD213D291B29D13A0020E427 /* PawButton.swift */; };
 		CD213D2C1B29EC400020E427 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD213D2B1B29EC400020E427 /* Functions.swift */; };
+		CD213D2E1B2A22F40020E427 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD213D2D1B2A22F40020E427 /* PlayerViewController.swift */; };
 		CD7B353C1B2873AB00AB0EA6 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B353B1B2873AB00AB0EA6 /* Avatar.swift */; };
 		CD7B645F1B2729C0003FBABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B645E1B2729C0003FBABB /* AppDelegate.swift */; };
 		CD7B64611B2729C0003FBABB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CD7B64601B2729C0003FBABB /* GameScene.sks */; };
@@ -38,6 +39,7 @@
 		CD213D271B29C3380020E427 /* MoveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveButton.swift; sourceTree = "<group>"; };
 		CD213D291B29D13A0020E427 /* PawButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PawButton.swift; sourceTree = "<group>"; };
 		CD213D2B1B29EC400020E427 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		CD213D2D1B2A22F40020E427 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		CD7B353B1B2873AB00AB0EA6 /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 		CD7B64591B2729C0003FBABB /* StuffedAnimalMortalKombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuffedAnimalMortalKombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7B645D1B2729C0003FBABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD213D2F1B2A22FC0020E427 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				CD213D2D1B2A22F40020E427 /* PlayerViewController.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
 		CD7B353A1B28737000AB0EA6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 		CD7B645B1B2729C0003FBABB /* StuffedAnimalMortalKombat */ = {
 			isa = PBXGroup;
 			children = (
+				CD213D2F1B2A22FC0020E427 /* Player */,
 				CD7B353A1B28737000AB0EA6 /* Controller */,
 				CD7B648A1B273C78003FBABB /* Random */,
 				CD7B64641B2729C0003FBABB /* GameViewController.swift */,
@@ -276,6 +287,7 @@
 				CD7B64891B273C69003FBABB /* Connector.swift in Sources */,
 				CD213D2A1B29D13A0020E427 /* PawButton.swift in Sources */,
 				CD7B645F1B2729C0003FBABB /* AppDelegate.swift in Sources */,
+				CD213D2E1B2A22F40020E427 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

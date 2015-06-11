@@ -1,23 +1,22 @@
 //
-//  ControllerViewController.swift
+//  PlayerViewController.swift
 //  StuffedAnimalMortalKombat
 //
-//  Created by Whitney Lauren on 6/9/15.
+//  Created by Whitney Lauren on 6/11/15.
 //  Copyright (c) 2015 Whitney Lauren. All rights reserved.
 //
 
 import UIKit
 
-class ControllerViewController: UIViewController {
+class PlayerViewController: UIViewController {
+    
+    @IBOutlet weak var playerName: UILabel!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        Connector.sharedConnector().controller = self 
-        Connector.sharedConnector().startAdvertising()
 
-        
         // Do any additional setup after loading the view.
     }
 
