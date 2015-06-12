@@ -10,7 +10,7 @@
 		CD213D281B29C3380020E427 /* MoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD213D271B29C3380020E427 /* MoveButton.swift */; };
 		CD213D2A1B29D13A0020E427 /* PawButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD213D291B29D13A0020E427 /* PawButton.swift */; };
 		CD213D2C1B29EC400020E427 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD213D2B1B29EC400020E427 /* Functions.swift */; };
-		CD213D331B2A2F540020E427 /* playerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD213D321B2A2F540020E427 /* playerInfo.swift */; };
+		CD213D331B2A2F540020E427 /* StatsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD213D321B2A2F540020E427 /* StatsBar.swift */; };
 		CD7B353C1B2873AB00AB0EA6 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B353B1B2873AB00AB0EA6 /* Avatar.swift */; };
 		CD7B645F1B2729C0003FBABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B645E1B2729C0003FBABB /* AppDelegate.swift */; };
 		CD7B64611B2729C0003FBABB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CD7B64601B2729C0003FBABB /* GameScene.sks */; };
@@ -23,7 +23,9 @@
 		CD7B64841B272C3E003FBABB /* iPhoneMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7B64821B272C3E003FBABB /* iPhoneMain.storyboard */; };
 		CD7B64871B273B7F003FBABB /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B64861B273B7F003FBABB /* ControllerViewController.swift */; };
 		CD7B64891B273C69003FBABB /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B64881B273C69003FBABB /* Connector.swift */; };
-		CDAE00271B2A38A90029F3E2 /* Kills.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAE00261B2A38A90029F3E2 /* Kills.swift */; };
+		CDCA2E651B2B12C400844F50 /* PlayerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA2E641B2B12C400844F50 /* PlayerStats.swift */; };
+		CDCA2E671B2B146000844F50 /* StatsKills.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA2E661B2B146000844F50 /* StatsKills.swift */; };
+		CDCA2E691B2B146F00844F50 /* StatsLives.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA2E681B2B146F00844F50 /* StatsLives.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,7 @@
 		CD213D271B29C3380020E427 /* MoveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveButton.swift; sourceTree = "<group>"; };
 		CD213D291B29D13A0020E427 /* PawButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PawButton.swift; sourceTree = "<group>"; };
 		CD213D2B1B29EC400020E427 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		CD213D321B2A2F540020E427 /* playerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playerInfo.swift; sourceTree = "<group>"; };
+		CD213D321B2A2F540020E427 /* StatsBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsBar.swift; sourceTree = "<group>"; };
 		CD7B353B1B2873AB00AB0EA6 /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 		CD7B64591B2729C0003FBABB /* StuffedAnimalMortalKombat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuffedAnimalMortalKombat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7B645D1B2729C0003FBABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,7 +59,11 @@
 		CD7B64831B272C3E003FBABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhoneMain.storyboard; sourceTree = "<group>"; };
 		CD7B64861B273B7F003FBABB /* ControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControllerViewController.swift; path = ../ControllerViewController.swift; sourceTree = "<group>"; };
 		CD7B64881B273C69003FBABB /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
-		CDAE00261B2A38A90029F3E2 /* Kills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kills.swift; sourceTree = "<group>"; };
+		CDCA2E641B2B12C400844F50 /* PlayerStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStats.swift; sourceTree = "<group>"; };
+		CDCA2E661B2B146000844F50 /* StatsKills.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsKills.swift; sourceTree = "<group>"; };
+		CDCA2E681B2B146F00844F50 /* StatsLives.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsLives.swift; sourceTree = "<group>"; };
+		CDCA2E6A1B2B1ED400844F50 /* mensch-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mensch-bold.ttf"; sourceTree = "<group>"; };
+		CDCA2E6B1B2B1EE400844F50 /* mensch.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mensch.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +90,6 @@
 				CD7B353B1B2873AB00AB0EA6 /* Avatar.swift */,
 				CD213D271B29C3380020E427 /* MoveButton.swift */,
 				CD213D291B29D13A0020E427 /* PawButton.swift */,
-				CD213D321B2A2F540020E427 /* playerInfo.swift */,
-				CDAE00261B2A38A90029F3E2 /* Kills.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -125,6 +129,8 @@
 		CD7B645C1B2729C0003FBABB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDCA2E6A1B2B1ED400844F50 /* mensch-bold.ttf */,
+				CDCA2E6B1B2B1EE400844F50 /* mensch.ttf */,
 				CD7B645E1B2729C0003FBABB /* AppDelegate.swift */,
 				CD7B64691B2729C0003FBABB /* Images.xcassets */,
 				CD7B646B1B2729C0003FBABB /* LaunchScreen.xib */,
@@ -153,6 +159,10 @@
 		CD7B64851B273B2B003FBABB /* Game  */ = {
 			isa = PBXGroup;
 			children = (
+				CD213D321B2A2F540020E427 /* StatsBar.swift */,
+				CDCA2E641B2B12C400844F50 /* PlayerStats.swift */,
+				CDCA2E661B2B146000844F50 /* StatsKills.swift */,
+				CDCA2E681B2B146F00844F50 /* StatsLives.swift */,
 				CD7B64861B273B7F003FBABB /* ControllerViewController.swift */,
 				CD7B64621B2729C0003FBABB /* GameScene.swift */,
 				CD7B64601B2729C0003FBABB /* GameScene.sks */,
@@ -273,17 +283,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD213D331B2A2F540020E427 /* playerInfo.swift in Sources */,
+				CD213D331B2A2F540020E427 /* StatsBar.swift in Sources */,
 				CD7B353C1B2873AB00AB0EA6 /* Avatar.swift in Sources */,
 				CD213D281B29C3380020E427 /* MoveButton.swift in Sources */,
 				CD213D2C1B29EC400020E427 /* Functions.swift in Sources */,
 				CD7B64871B273B7F003FBABB /* ControllerViewController.swift in Sources */,
-				CDAE00271B2A38A90029F3E2 /* Kills.swift in Sources */,
+				CDCA2E671B2B146000844F50 /* StatsKills.swift in Sources */,
 				CD7B64631B2729C0003FBABB /* GameScene.swift in Sources */,
 				CD7B64651B2729C0003FBABB /* GameViewController.swift in Sources */,
 				CD7B64891B273C69003FBABB /* Connector.swift in Sources */,
 				CD213D2A1B29D13A0020E427 /* PawButton.swift in Sources */,
+				CDCA2E651B2B12C400844F50 /* PlayerStats.swift in Sources */,
 				CD7B645F1B2729C0003FBABB /* AppDelegate.swift in Sources */,
+				CDCA2E691B2B146F00844F50 /* StatsLives.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
